@@ -9,7 +9,7 @@ class Bank{
         //synchronized (obj){
             sum = sum + n;
             try{Thread.sleep(10);}catch(Exception e){}
-            System.out.println("Sum = " + sum);
+            System.out.println("Sum is " + sum);
         //}
     }
 }
